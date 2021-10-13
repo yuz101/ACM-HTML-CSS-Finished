@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Favorite Song</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="./spotify-hex-colors-gradient-background.png">
+<header>
+    <img src="./Spotify_Logo_CMYK_Green.png" height="40">
+    <nav>
+        <ul>
+            <li><a href="favSong.html">Song</a></li>
+            <li><a href="favPlaylist.html">Playlist</a></li>
+            <li><a href="play.html">Play</a></li>
+            <li><a href="ranking.html">Ranking</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<h1 id="fav-title"></h1>
+<form>
+    <fieldset>
+        <legend><h2>Contact Us</h2></legend>
+        <label >First name:</label><br>
+        <input type="text"><br>
+        <label >Last name:</label><br>
+        <input type="text"><br><br>
+        <label >Email Address:</label><br>
+        <input type="email"><br><br>
+        <label >Phone Number:</label><br>
+        <input type="tel"><br><br>
+
+        <label for="major">Major:</label><br>
+            <select name="major" id="major">
+                <optgroup label="Engineering">
+                    <option value="CS">Computer Science</option>
+                    <option value="bioE">Bioengineering</option>
+                </optgroup>
+                <optgroup label="ARTS AND HUMANITIES">
+                    <option value="music">Music</option>
+                    <option value="visart">Visual Arts</option>
+                </optgroup>
+                <optgroup label="BIOLOGICAL SCIENCES">
+                    <option value="biology">Biology</option>
+                    <option value="chemistry">Chemistry</option>
+                </optgroup>
+            </select><br>
+
+            <label >Message:</label><br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+        <button type="button">Click Me!</button>
+        <input type="submit" value="Submit">
+    </fieldset>
+</form> 
+</body>
+</html>
